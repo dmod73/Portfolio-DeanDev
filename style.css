@@ -1,0 +1,529 @@
+/* Estilos para los íconos sociales con imágenes */
+.social-icons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-left: 20px; /* Mueve los íconos más cerca del borde derecho de la foto */
+}
+
+/* Asegura que los íconos sociales estén centrados y abajo de la foto de perfil */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px; /* Espacio entre la imagen y los íconos */
+}
+
+.icon-img {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.3s ease;
+    width: 24px;  /* Tamaño más pequeño para no ocupar mucho espacio */
+    height: 24px;
+}
+
+.social-icons a:hover .icon-img {
+    transform: scale(1.1); /* Agranda los íconos ligeramente al hacer hover */
+}
+
+
+/* Modificar la navegación lateral */
+.side-nav:hover .side-menu {
+    width: 250px; /* Define el ancho del menú cuando el mouse está sobre él */
+}
+
+.side-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: #333333;
+    overflow-x: hidden;
+    transition: width 0.5s ease;
+    z-index: 999;
+    padding-top: 60px;
+    box-shadow: 3px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.side-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.side-menu ul li {
+    padding: 8px 32px;
+}
+
+/* Estilos para agregar borde a las palabras del menú de navegación */
+.side-menu ul li a {
+    color: #FEFAE0; /* Color del texto */
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease; /* Transición suave */
+    -webkit-text-stroke: 1px #DDA15E; /* Borde del texto */
+}
+
+.side-menu ul li a:hover {
+    color: #BC6C25; /* Color al hacer hover */
+    transform: scale(1.1); /* Agrandar un poco al pasar el mouse */
+}
+
+/* Modificación del botón para que sea más visual */
+.nav-button {
+    background-color: #333333;
+    color: #FEFAE0;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #BC6C25;
+}
+
+/* Estilo para el menú lateral */
+.side-menu ul li a {
+    color: #FEFAE0;
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease; /* Suave transición */
+}
+
+/* Agrandar las opciones al pasar el mouse */
+.side-menu ul li a:hover {
+    color: #BC6C25; /* Cambiar color en hover */
+    transform: scale(1.1); /* Agrandar un poco */
+}
+
+
+.card img {
+    transition: transform 0.3s ease;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+}
+
+main {
+    flex: 1;
+    background-color: whitesmoke;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #333333; /* Verde más oscuro para el fondo del footer */
+    color: white;
+}
+
+/* Estilos del div superior para el logo */
+.header-logo-container {
+    background-color: rgb(177, 173, 173); /* White   claro para el fondo del div superior */
+    padding: 5px;
+    text-align: center;
+}
+
+
+/* Header Styles */
+.header-container {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #FEFAE0; /* Verde oscuro para el fondo del header */
+}
+
+
+.btn-primary {
+    background-color: #333333; /* Verde más oscuro para el botón principal */
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    color: #FEFAE0; /* Texto claro */
+}
+
+.btn-primary:hover {
+    background-color: #BC6C25; /* Naranja oscuro al hover */
+}
+
+/* Botón de Contact en modo normal (mismo fondo que las tarjetas) */
+.btn-outline-secondary {
+    background-color: #FEFAE0; /* Mismo color de fondo que las tarjetas */
+    color: #333333; /* Color de texto oscuro */
+    border-color: #DDA15E; /* Borde naranja claro */
+}
+
+.btn-outline-secondary:hover {
+    background-color: #DDA15E; /* Naranja claro al hacer hover */
+    color: #FEFAE0; /* Texto claro al hacer hover */
+}
+
+/* Botón More al mismo estilo de Ver más */
+.dropdown .btn-outline-secondary {
+    background-color: #BC6C25; /* Mismo fondo que el botón Ver más */
+    color: #FEFAE0; /* Mismo color de texto */
+    border: none;
+}
+
+.dropdown .btn-outline-secondary:hover {
+    background-color: #BC6C25; /* Mismo color de hover que el botón Ver más */
+    color: #FEFAE0; /* Texto claro en hover */
+}
+
+
+/* Skills and Project Cards */
+.project-card {
+    border: 1px solid #DDA15E; /* Borde naranja claro */
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #FEFAE0; /* Fondo claro de las cards */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.skill-card {
+    position: relative;
+    padding-right: 50px; /* Asegura espacio para los íconos a la derecha */
+    border: 1px solid #DDA15E; /* Borde naranja claro */
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #FEFAE0; /* Fondo claro de las cards */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for cards */
+.skill-card:hover, .project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Card estilo carnet */
+.id-card {
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    width: 70%;
+    max-width: 900px;
+}
+
+.profile-img-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Ajustes para la imagen de perfil */
+.profile-img {
+    width: 200px; /* Aumenta el tamaño de la imagen */
+    height: 200px; /* Cuadrada */
+    border-radius: 15px; /* Bordes idénticos a las tarjetas de proyectos */
+    object-fit: cover;
+    border: 1px solid #DDA15E; /* Bordes igual a los de las tarjetas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra similar a las tarjetas */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.profile-info {
+    flex: 3;
+    margin-left: 20px;
+}
+
+/* Efecto hover para agrandar la imagen */
+.profile-img:hover {
+    transform: scale(1.1); /* Agrandar ligeramente al pasar el cursor */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más intensa al hacer hover */
+}
+
+/* Estilos para los círculos de aptitudes */
+.aptitude-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #FEFAE0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #DDA15E; /* Igual que las tarjetas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 20px auto;
+}
+
+.aptitude-circle p {
+    color: #333;
+    font-weight: bold;
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Efecto hover para los círculos */
+.aptitude-circle:hover {
+    transform: scale(1.1); /* Agrandar ligeramente al pasar el cursor */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más intensa al hacer hover */
+}
+.icons img {
+    width: 24px;  /* Tamaño más pequeño para no ocupar mucho espacio */
+    height: 24px;
+}
+
+/* Clase para la animación de aparición desde un lado */
+.fade-in-left {
+    opacity: 0;
+    transform: translateX(-50px); /* Inicia desplazado a la izquierda */
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in-left.active {
+    opacity: 1;
+    transform: translateX(0); /* Termina en su posición original */
+}
+
+.about-card {
+    border: 1px solid #DDA15E; /* Borde naranja claro */
+    border-radius: 8px;
+    padding: 50px;
+    background-color: #FEFAE0; /* Fondo claro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-weight: bold; /* Aumenta el peso de todo el texto */
+}
+
+.about-card:hover {
+    transform: scale(1.05); /* Efecto hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+}
+
+/* Ajustes para los íconos fuera del botón */
+.icon-img-right-outside {
+    width: 20px; /* Tamaño del ícono */
+    height: 20px;
+    margin-left: 10px; /* Espacio entre el botón y el ícono */
+}
+
+/* Switch styling */
+.switch {
+    position: absolute;
+    top: 20px; /* Ajusta para que se coloque donde quieras en el header */
+    right: 20px; /* Alineado a la derecha */
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+/* Cambiar el color de DeanDev en modo noche */
+body.night-mode .header-logo {
+    color: #000000; /* Texto blanco en modo noche */
+}
+
+/* Background de la tarjeta de presentación en modo noche */
+body.night-mode .id-card {
+    background-color: #000000; /* Fondo negro */
+    color: #ffffff; /* Texto blanco */
+    border: 1px solid #333333; /* Borde gris oscuro */
+}
+
+/* Modo noche para el body general */
+body.night-mode {
+    background-color: #333333; /* Fondo oscuro */
+    color: #E0E0E0; /* Texto claro */
+}
+
+/* Header en modo noche */
+body.night-mode .header-container {
+    background-color: #333333;
+}
+
+
+/* Botón principal en modo noche */
+body.night-mode .btn-primary {
+    background-color: #686565;
+    color: #ffffff;
+}
+/* Cambiar el ícono de GitHub en modo noche */
+body.night-mode .social-icon.github img {
+    content: url('./img/github-color-svgrepo-com.svg'); /* Ícono alternativo para modo noche */
+}
+
+/* Cambiar el ícono del segundo GitHub (al lado del de Trello) en modo noche */
+body.night-mode .social-icon.github-2 img {
+    content: url('./img/github-color-svgrepo-com.svg'); /* Ícono alternativo para modo noche */
+}
+
+
+/* Cards (proyectos, skills, about) en modo noche */
+body.night-mode .project-card,
+body.night-mode .skill-card,
+body.night-mode .about-card {
+    background-color: #1C1C1C;
+    color: #E0E0E0;
+    border: 3px solid #DDA15E;
+}
+
+/* Footer en modo noche */
+body.night-mode footer {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Círculos de aptitudes en modo noche */
+body.night-mode .aptitude-circle {
+    background-color: #000000; /* Fondo negro */
+    color: #ffffff; /* Texto blanco */
+    border: 1px solid #444444; /* Borde gris oscuro */
+}
+
+/* Círculos de aptitudes en modo noche */
+body.night-mode .aptitude-circle {
+    background-color: #000000; /* Fondo negro */
+    color: #ffffff; /* Texto blanco */
+    border: 3px solid #DDA15E; /* Borde naranja claro SOLO en el círculo */
+    border-radius: 50%; /* Asegura que sea un círculo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Texto dentro de los círculos en modo noche */
+body.night-mode .aptitude-circle p {
+    color: #ffffff; /* Solo cambia el color del texto a blanco */
+}
+
+/* Botón de navegación en modo noche */
+body.night-mode .nav-button {
+    background-color: #000000; /* Fondo negro */
+    color: #ffffff; /* Texto blanco */
+}
+
+body.night-mode .nav-button:hover {
+    background-color: #444444; /* Fondo más oscuro al hacer hover en modo noche */
+}
+
+/* Menú lateral desplegado en modo noche */
+body.night-mode .side-menu {
+    background-color: #000000; /* Fondo negro en modo noche */
+}
+
+body.night-mode .side-menu ul li a {
+    color: #ffffff; /* Texto blanco en modo noche */
+}
+
+body.night-mode .side-menu ul li a:hover {
+    color: #DDA15E; /* Texto de color naranja claro al hacer hover en modo noche */
+}
+
+/* Fondo gris para la sección de Projects en modo noche */
+body.night-mode #projects {
+    background-color: #333333; /* Fondo gris oscuro */
+    color: #ffffff; /* Texto blanco */
+}
+
+/* Fondo gris para la sección de Skills en modo noche */
+body.night-mode #skills {
+    background-color: #333333; /* Fondo gris oscuro */
+    color: #ffffff; /* Texto blanco */
+}
+
+/* Fondo gris para la sección de Qualities en modo noche */
+body.night-mode #qualities {
+    background-color: #333333; /* Fondo gris oscuro */
+    color: #ffffff; /* Texto blanco */
+}
+
+/* Fondo gris para la sección de About Me en modo noche */
+body.night-mode #about {
+    background-color: #333333; /* Fondo gris oscuro */
+    color: #ffffff; /* Texto blanco */
+}
+/* Cambiar el color de los títulos de las secciones en modo oscuro */
+body.night-mode h2 {
+    color: #DDA15E; /* Mismo color que los bordes de las esferas en modo oscuro */
+}
+
+.switch {
+    position: absolute;
+    top: 0px; /* Ajustado para subir el switch un poco más arriba */
+    right: 20px;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+/* Asegura que la tarjeta se ajuste correctamente en pantallas pequeñas */
+@media (max-width: 768px) {
+    .id-card {
+        flex-direction: column; /* Organiza la imagen y el texto uno debajo del otro */
+        align-items: center;
+        text-align: center; /* Alinea el texto al centro */
+        padding: 10px;
+    }
+
+    .profile-info {
+        margin-left: 0; /* Elimina el margen en pantallas pequeñas */
+        margin-top: 15px; /* Añade espacio entre la imagen y el texto */
+    }
+
+    .profile-img {
+        width: 120px;
+        height: 120px; /* Reduce el tamaño de la imagen */
+    }
+
+    .buttons {
+        margin-top: 10px; /* Añade espacio entre los botones y el texto */
+    }
+}
+
+
+
+
+
+

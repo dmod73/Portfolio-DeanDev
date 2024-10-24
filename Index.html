@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeanDev</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="JavaScript.js"></script>
+
+ 
+</head>
+<body>
+
+    <div class="header-logo-container">
+        <div class="header-logo"><b>DEANDEV</b></div>
+    </div>
+
+    <div class="side-nav">
+        <button class="nav-button" id="navButton">☰</button>
+        <nav class="side-menu" id="sideMenu">
+            <ul>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#qualities">Qualities</a></li>
+                <li><a href="Dean_M_Ortiz_Diaz _Resume.pdf" target="_blank">Resume</a></li>
+                <li><a href="mailto:ortizdiazdeanm@gmail.com?subject=Contacto%20desde%20tu%20portafolio&body=Hola%20Dean,%0D%0A%0D%0AQuiero%20ponerme%20en%20contacto%20contigo.">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Agrega el switch dentro del header-container -->
+<header class="header-container">
+    <div class="id-card">
+        <div class="profile-img-container">
+            <img src="./img/Meid.jpeg" alt="Dean's profile" class="profile-img">
+        </div>
+        <div class="profile-info">
+            <h1>Hi, my name is Dean.</h1>
+            <h2>I'm a Fullstack Developer in practice!</h2>
+            <div class="buttons">
+                <a href="Dean_M_Ortiz_Diaz _Resume.pdf" class="btn btn-primary" target="_blank">Download CV</a>
+                <a href="mailto:ortizdiazdeanm@gmail.com?subject=Contacto%20desde%20tu%20portafolio&body=Hola%20Dean,%0D%0A%0D%0AQuiero%20ponerme%20en%20contacto%20contigo." class="btn btn-outline-secondary">Contact</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+    <main>
+        <!-- Sección de Proyectos -->
+<section id="projects" class="py-5">
+    <div class="container">
+        <h2 class="text-center">Proyectos</h2>
+        <div class="row">
+         <!-- Card 1 -->
+<div class="col-md-4">
+    <div class="card project-card">
+        <img src="./img/crudimg.png" class="card-img-top" alt="Proyecto 1">
+        <div class="card-body">
+            <h5 class="card-title">C# CRUD</h5>
+            <p class="card-text">"A simple CRUD application built with C# to demonstrate the implementation of Create, Read, Update, and Delete operations."</p>
+            <div class="d-flex align-items-center">
+                <a href="#" class="btn btn-primary">Ver más</a>
+                <img src="./img/c-sharp.png" alt="Icono" class="icon-img-right-outside">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Card 2 -->
+<div class="col-md-4">
+    <div class="card project-card">
+        <img src="./img/Currencyconvimg.png" class="card-img-top" alt="Proyecto 2">
+        <div class="card-body">
+            <h5 class="card-title">Currency Converter API</h5>
+            <p class="card-text">"A C# app that fetches live exchange rates via an API and converts currencies in real-time. It highlights API integration and data handling skills."</p>
+            <div class="d-flex align-items-center">
+                <a href="#" class="btn btn-primary">Ver más</a>
+                <img src="./img/api.png" alt="Icono" class="icon-img-right-outside">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Card 3 -->
+<div class="col-md-4">
+    <div class="card project-card">
+        <img src="./img/pswrdgenimg.png" class="card-img-top" alt="Proyecto 3">
+        <div class="card-body">
+            <h5 class="card-title">Passwords Generator</h5>
+            <p class="card-text">"A C# app that generates secure, random passwords tailored to each user, ensuring strong protection adding some business rules."</p>
+            <div class="d-flex align-items-center">
+                <a href="#" class="btn btn-primary">Ver más</a>
+                <img src="./img/database.png" alt="Icono" class="icon-img-right-outside">
+            </div>
+        </div>
+    </div>
+</div>
+<div></div>
+
+        <!-- Botón More con Dropdown -->
+        <div class="text-center mt-4">
+            <div class="dropdown">
+                <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                    More
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#">Coming Soon</a></li>
+                    <li><a class="dropdown-item" href="#">Coming Soon</a></li>
+                    <li><a class="dropdown-item" href="#">Coming Soon</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div></div>
+
+        <!-- Sección de Habilidades -->
+        <section id="skills" class= py-5">
+            <div class="container">
+                <h2 class="text-center">Skills</h2>
+                <div class="row">
+                    <!-- Primera columna de habilidades -->
+                    <div class="col-md-6">
+                        <div class="skill-card">
+                            <h5>Desarrollo Frontend</h5>
+                            <p>HTML, CSS, JavaScript, TypeScript, Bootstrap, Blazor</p>
+                            <div class="icons">
+                                <img src="./img/html-5.png" alt="HTML5 Icon" class="icon-img">
+                                <img src="./img/css-3.png" alt="CSS3 Icon" class="icon-img">
+                                <img src="./img/js.png" alt="JavaScript Icon" class="icon-img">
+                                <img src="./img/typescript.png" alt="Bootstrap Icon" class="icon-img">
+                                <img src="./img/bootstrap-brands-solid.svg" alt="React Ico" class="icon-img">
+                                <img src="./img/blazor (1).svg" alt="Vue.js " class="icon-img">
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <h5>Gestión de Bases de Datos</h5>
+                            <p>MySQL, SSMS</p>
+                            <div class="icons">
+                                <img src="./img/database.png" alt="HTML5 Icon" class="icon-img">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Segunda columna de habilidades -->
+                    <div class="col-md-6">
+                        <div class="skill-card">
+                            <h5>Desarrollo Backend</h5>
+                            <p>C#, .NET, ASP.net web API, Entity Framework</p>
+                            <div class="icons">
+                                <img src="./img/c-sharp.png" alt="HTML5 Icon" class="icon-img">
+                                <img src="./img/NET core.svg" alt="CSS3 Icon" class="icon-img">
+                                <img src="./img/api.png" alt="JavaScript Icon" class="icon-img">
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <h5>Versionamiento de Código</h5>
+                            <p>Git, GitHub, Trello</p>
+                            <div class="icons">
+                                    <img src="./img/signo-de-github.png" alt="GitHub" class="icon-img">
+                                <img src="./img/trello.png" alt="CSS3 Icon" class="icon-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+       <!-- Sección Acerca de Aptitudes -->
+<section id="qualities" class= py-5">
+    <div class="container">
+        <h2 class="text-center">Qualities</h2>
+        <div class="row text-center">
+            <!-- Círculo 1 -->
+            <div class="col-md-2 mx-auto fade-in-left aptitude-item">
+                <div class="aptitude-circle">
+                    <p>Teamwork</p>
+                </div>
+            </div>
+            <!-- Círculo 2 -->
+            <div class="col-md-2 mx-auto fade-in-left aptitude-item">
+                <div class="aptitude-circle">
+                    <p>Critical Thinking</p>
+                </div>
+            </div>
+            <!-- Círculo 3 -->
+            <div class="col-md-2 mx-auto fade-in-left aptitude-item">
+                <div class="aptitude-circle">
+                    <p>Comunicación Efectiva</p>
+                </div>
+            </div>
+            <!-- Círculo 4 -->
+            <div class="col-md-2 mx-auto fade-in-left aptitude-item">
+                <div class="aptitude-circle">
+                    <p>Effective Communication</p>
+                </div>
+            </div>
+            <!-- Círculo 5 -->
+            <div class="col-md-2 mx-auto fade-in-left aptitude-item">
+                <div class="aptitude-circle">
+                    <p>Adaptability</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        
+
+        <!-- Sección Acerca de Mí -->
+        <section id="about" class="py-5">
+            <div class="container">
+                <h2 class="text-center">About Me</h2>
+                <div class="about-card">
+                    <p class="text-center">Hi, I’m Dean Michael Ortiz Díaz, a university student and aspiring Software Developer focused on full stack development in the .NET ecosystem. I’m currently honing my skills in C#, Blazor, and database management, while actively learning and staying updated with the latest industry trends. Every day, I challenge myself to grow through practice and engagement with the developer community. Let’s build something impactful together!</p>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 My Portfolio (DeanDev). All rights reserved.</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.js"></script>
+</body>
+</html>
+
+
+
+
